@@ -1,0 +1,11 @@
+
+{
+  "name": "fiadorpro-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "echo '<!doctype html><html><body>FiadorPRO online</body></html>' > dist/index.html",
+    "preview": "npx serve -s dist -l 4173"
+  }
+}
